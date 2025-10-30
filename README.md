@@ -4,6 +4,8 @@ A **real-time web dashboard** that monitors Google Play Store app listings by di
 It automatically updates live via **Server-Sent Events (SSE)** whenever the backend captures a new screenshot — no refresh or polling required.
 
 ---
+## 🌍 Live Demo
+🔗 **[PlayStore Monitoring Dashboard — Live Site](http://56.228.15.190/)**
 
 ## 🚀 Features
 
