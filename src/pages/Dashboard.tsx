@@ -52,7 +52,7 @@ export default function Dashboard() {
 
   // 3️⃣ Listen for live updates
   useEffect(() => {
-    const eventSource = new EventSource("http://localhost:4000/api/events");
+    const eventSource = new EventSource("http://13.60.6.96/api/events");
 
     eventSource.onmessage = (event) => {
       const data = JSON.parse(event.data);

@@ -7,7 +7,7 @@ interface Screenshot {
 
 export default function ScreenshotCard({ screenshot }: { screenshot: Screenshot }) {
   const date = new Date(screenshot.capturedAt).toLocaleString();
-  const fullImageUrl = `http://localhost:4000${screenshot.imageUrl}`;
+  const fullImageUrl = `http://13.60.6.96${screenshot.imageUrl}`;
 
   return (
     <div className="screenshot-card">
