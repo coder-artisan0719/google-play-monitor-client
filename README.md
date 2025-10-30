@@ -56,7 +56,7 @@ frontend/
 Make sure you have:
 - Node.js ≥ 18  
 - npm ≥ 9  
-- The backend service running at `http://13.60.6.96`
+- The backend service running at `http://56.228.15.190`
 
 ---
 
@@ -68,7 +68,7 @@ npm install
 ### 3️⃣ Prerequisites
 Configure environment variables
 ```
-VITE_API_URL=http://13.60.6.96/api/
+VITE_API_URL=http://56.228.15.190/api/
 ```
 ---
 

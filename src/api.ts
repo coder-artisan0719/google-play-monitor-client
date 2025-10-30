@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://13.60.6.96/api";
+const API_BASE = "http://56.228.15.190/api";
 
 export const api = {
   captureScreenshot: (data: { appName: string; url: string }) =>
