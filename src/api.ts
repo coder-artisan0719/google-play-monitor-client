@@ -9,5 +9,5 @@ export const api = {
   getScreenshots: (appId: string) =>
     axios.get(`${API_BASE}/screenshots/${appId}`),
 
-  getApps: () => axios.get(`${API_BASE}/apps`), // optional route if you add it
+  getApps: () => axios.get(`${API_BASE}/apps`),
 };

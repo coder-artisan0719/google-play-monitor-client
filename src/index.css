@@ -117,7 +117,6 @@ button[disabled] {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* ✅ Spinner animation */
 .spinner {
   width: 50px;
   height: 50px;
@@ -137,7 +136,6 @@ button[disabled] {
   }
 }
 
-/* ✅ Loading text */
 .loading-text {
   font-size: 18px;
   color: #555;
@@ -150,7 +148,6 @@ button[disabled] {
   margin-top: 10px;
 }
 
-/* ✅ Optional fade-in effect when data loads */
 .dashboard {
   animation: fadeIn 0.4s ease-in;
 }
